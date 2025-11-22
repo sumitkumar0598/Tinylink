@@ -1,0 +1,48 @@
+.addurl-container {
+  max-width: 600px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.addurl-container h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.addurl-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.addurl-form input {
+  width: 70%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.addurl-form input:focus {
+  border-color: #4c8bff;
+  box-shadow: 0 0 5px rgba(76, 139, 255, 0.5);
+}
+
+.addurl-form button {
+  padding: 12px 20px;
+  background: #4c8bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.addurl-form button:hover {
+  background: #2f6fdd;
+}
