@@ -1,0 +1,11 @@
+
+[build]
+builder = "NIXPACKS"
+
+[build.nixpacksPlan]
+# Tell Railway to ONLY build inside backend folder
+dir = "backend"
+
+[deploy]
+# Tell Railway how to start your backend server
+startCommand = "node server.js"
